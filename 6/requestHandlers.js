@@ -1,10 +1,10 @@
-function start()
-{
-	console.log("Request handler 'start' was called");
+function start() {
+    "use strict";
+    console.log("Request handler 'start' was called");
 }
-function upload()
-{
-	console.log("Request handler 'upload' was called");
+function upload() {
+    "use strict";
+    console.log("Request handler 'upload' was called");
 }
 
 exports.start = start;
